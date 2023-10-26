@@ -1,0 +1,462 @@
+{
+  "isOk": true,
+  "description": "success",
+  "data": [
+      {
+          "id": 24001,
+          "title": "Азов | Маяковского, 77",
+          "city": "Азов",
+          "city_en": "Azov",
+          "time_zone": "Europe\/Moscow",
+          "address": "переулок Маяковского, 77"
+      },
+      {
+          "id": 61006,
+          "title": "Аксай | Аксайский, 2",
+          "city": "Аксай",
+          "city_en": "Aksay",
+          "time_zone": "Europe\/Moscow",
+          "address": "Аксайский проспект, 2"
+      },
+      {
+          "id": 22011,
+          "title": "Алейск | Пионерская, 125Б",
+          "city": "Алейск",
+          "city_en": "Aleysk",
+          "time_zone": "Asia\/Barnaul",
+          "address": "ул. Пионерская, 125Б"
+      },
+      {
+          "id": 22001,
+          "title": "Барнаул  | Власихинская, 65",
+          "city": "Барнаул",
+          "city_en": "Barnaul",
+          "time_zone": "Asia\/Barnaul",
+          "address": "ул. Власихинская, 65"
+      },
+      {
+          "id": 22006,
+          "title": "Барнаул | Антона Петрова, 208Б",
+          "city": "Барнаул",
+          "city_en": "Barnaul",
+          "time_zone": "Asia\/Barnaul",
+          "address": "ул. Антона Петрова, 208Б"
+      },
+      {
+          "id": 22008,
+          "title": "Барнаул | Балтийская, 116",
+          "city": "Барнаул",
+          "city_en": "Barnaul",
+          "time_zone": "Asia\/Barnaul",
+          "address": "ул. Балтийская, 116"
+      },
+      {
+          "id": 22002,
+          "title": "Барнаул | Павловский, 156",
+          "city": "Барнаул",
+          "city_en": "Barnaul",
+          "time_zone": "Asia\/Barnaul",
+          "address": "Павловский тракт, 156"
+      },
+      {
+          "id": 22009,
+          "title": "Барнаул | Попова, 86 \/ Исакова, 260",
+          "city": "Барнаул",
+          "city_en": "Barnaul",
+          "time_zone": "Asia\/Barnaul",
+          "address": "ул. Попова, 86"
+      },
+      {
+          "id": 22003,
+          "title": "Барнаул | Строителей, 117",
+          "city": "Барнаул",
+          "city_en": "Barnaul",
+          "time_zone": "Asia\/Barnaul",
+          "address": "пр. Строителей, 117"
+      },
+      {
+          "id": 22005,
+          "title": "Барнаул | Тимуровская, 17 \/ ​Эмилии Алексеевой, 37",
+          "city": "Барнаул",
+          "city_en": "Barnaul",
+          "time_zone": "Asia\/Barnaul",
+          "address": "ул. Тимуровская, 17"
+      },
+      {
+          "id": 61015,
+          "title": "Батайск | Урицкого, 7",
+          "city": "Батайск",
+          "city_en": "Bataysk",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Урицкого, 7"
+      },
+      {
+          "id": 97001,
+          "title": "Белорецк | Точисского, 27",
+          "city": "Белорецк",
+          "city_en": "Beloretsk",
+          "time_zone": "Asia\/Yekaterinburg",
+          "address": "ул. Точисского, 27"
+      },
+      {
+          "id": 22007,
+          "title": "Бийск | Ленина, 252\/2",
+          "city": "Бийск",
+          "city_en": "Biysk",
+          "time_zone": "Asia\/Barnaul",
+          "address": "ул. Ленина, 252\/2"
+      },
+      {
+          "id": 22004,
+          "title": "Бийск | Митрофанова, 1\/1",
+          "city": "Бийск",
+          "city_en": "Biysk",
+          "time_zone": "Asia\/Barnaul",
+          "address": "ул. Митрофанова, 1\/1"
+      },
+      {
+          "id": 34001,
+          "title": "Волгоград1 | Космонавтов, 30",
+          "city": "Волгоград",
+          "city_en": "Volgograd",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Космонавтов, 30"
+      },
+      {
+          "id": 34002,
+          "title": "Волгоград2 | Университетский, 105",
+          "city": "Волгоград",
+          "city_en": "Volgograd",
+          "time_zone": "Europe\/Moscow",
+          "address": "Университетский пр-т, 105"
+      },
+      {
+          "id": 34003,
+          "title": "Волжский | Оломоуцкая, 9",
+          "city": "Волжский",
+          "city_en": "Volzhsky",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Оломоуцкая, 9"
+      },
+      {
+          "id": 36001,
+          "title": "Воронеж (Отрадное) | Осиновая, 4",
+          "city": "Воронеж",
+          "city_en": "Voronezh",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Осиновая, 4"
+      },
+      {
+          "id": 66003,
+          "title": "Екатеринбург | Академика Сахарова, 107\/1",
+          "city": "Екатеринбург",
+          "city_en": "Yekaterinburg",
+          "time_zone": "Asia\/Yekaterinburg",
+          "address": "пр. Академика Сахарова, 107\/1"
+      },
+      {
+          "id": 66104,
+          "title": "Екатеринбург | Сибирский тракт дублёр, 19\/1",
+          "city": "Екатеринбург",
+          "city_en": "Yekaterinburg",
+          "time_zone": "Asia\/Yekaterinburg",
+          "address": "Сибирский тракт дублёр, 19\/1"
+      },
+      {
+          "id": 78001,
+          "title": "Зеленоград | Панфиловский, 6А",
+          "city": "Зеленоград",
+          "city_en": "Zelenograd",
+          "time_zone": "Europe\/Moscow",
+          "address": "пр. Панфиловский, 6А"
+      },
+      {
+          "id": 23004,
+          "title": "Краснодар | Покрышкина, 3",
+          "city": "Краснодар",
+          "city_en": "Krasnodar",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Александра Покрышкина, 3"
+      },
+      {
+          "id": 23003,
+          "title": "Краснодар | Стасова, 186",
+          "city": "Краснодар",
+          "city_en": "Krasnodar",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Стасова, 186"
+      },
+      {
+          "id": 92001,
+          "title": "Магнитогорск1 | Вокзальная, 23",
+          "city": "Магнитогорск",
+          "city_en": "Magnitogorsk",
+          "time_zone": "Asia\/Yekaterinburg",
+          "address": "ул. Вокзальная, 23"
+      },
+      {
+          "id": 92002,
+          "title": "Магнитогорск2 | Карла Маркса, 172",
+          "city": "Магнитогорск",
+          "city_en": "Magnitogorsk",
+          "time_zone": "Asia\/Yekaterinburg",
+          "address": "ул. Карла Маркса, 172"
+      },
+      {
+          "id": 92004,
+          "title": "Магнитогорск3 | Карла Маркса, 74",
+          "city": "Магнитогорск",
+          "city_en": "Magnitogorsk",
+          "time_zone": "Asia\/Yekaterinburg",
+          "address": "пр. Карла Маркса, 74"
+      },
+      {
+          "id": 93001,
+          "title": "Михайловск | Ленина, 156",
+          "city": "Михайловск",
+          "city_en": "Mikhaylovsk",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Ленина, 156"
+      },
+      {
+          "id": 77001,
+          "title": "Москва | Вернадского, 39",
+          "city": "Москва",
+          "city_en": "Moscow",
+          "time_zone": "Europe\/Moscow",
+          "address": "пр. Вернадского, 39"
+      },
+      {
+          "id": 26001,
+          "title": "Невинномысск | Пятигорское шоссе, 11",
+          "city": "Невинномысск",
+          "city_en": "Nevinnomyssk",
+          "time_zone": "Europe\/Moscow",
+          "address": "Пятигорское шоссе, 11"
+      },
+      {
+          "id": 72002,
+          "title": "Нижневартовск | 60 лет Октября",
+          "city": "Нижневартовск",
+          "city_en": "Nizhnevartovsk",
+          "time_zone": "Asia\/Yekaterinburg",
+          "address": "ул. 60 лет Октября, 52"
+      },
+      {
+          "id": 66001,
+          "title": "Нижний Тагил | Уральский, 75",
+          "city": "Нижний Тагил",
+          "city_en": "Nizhny Tagil",
+          "time_zone": "Asia\/Yekaterinburg",
+          "address": "пр. Уральский, 75"
+      },
+      {
+          "id": 54001,
+          "title": "Новосибирск | Зорге, 271\/1",
+          "city": "Новосибирск",
+          "city_en": "Novosibirsk",
+          "time_zone": "Asia\/Barnaul",
+          "address": "ул. Зорге, 271\/1"
+      },
+      {
+          "id": 61009,
+          "title": "Новочеркасск | Гагарина, 2Б",
+          "city": "Новочеркасск",
+          "city_en": "Novocherkassk",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Гагарина, 2Б"
+      },
+      {
+          "id": 61011,
+          "title": "Новочеркасск2 | Ященко, 1А",
+          "city": "Новочеркасск",
+          "city_en": "Novocherkassk",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Ященко, 1А"
+      },
+      {
+          "id": 61005,
+          "title": "Новошахтинск | Харьковская, 201",
+          "city": "Новошахтинск",
+          "city_en": "Novoshahtinsk",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Харьковская, 201"
+      },
+      {
+          "id": 55001,
+          "title": "Омск1 | 6-я Станционная, 2\/5",
+          "city": "Омск",
+          "city_en": "Omsk",
+          "time_zone": "Asia\/Omsk",
+          "address": "ул. 6-я Станционная, 2\/5"
+      },
+      {
+          "id": 55002,
+          "title": "Омск2 | 70 лет октября, 1",
+          "city": "Омск",
+          "city_en": "Omsk",
+          "time_zone": "Asia\/Omsk",
+          "address": "ул. 70 лет октября, 1"
+      },
+      {
+          "id": 55003,
+          "title": "Омск3 | Химиков, 30",
+          "city": "Омск",
+          "city_en": "Omsk",
+          "time_zone": "Asia\/Omsk",
+          "address": "ул. Химиков, 30"
+      },
+      {
+          "id": 55004,
+          "title": "Омск4 | 20 Партсъезда, 64\/3",
+          "city": "Омск",
+          "city_en": "Omsk",
+          "time_zone": "Asia\/Omsk",
+          "address": "ул. 20 Партсъезда, 64\/3"
+      },
+      {
+          "id": 75001,
+          "title": "Орск | Ленина, 168",
+          "city": "Орск",
+          "city_en": "Orsk",
+          "time_zone": "Asia\/Yekaterinburg",
+          "address": "пр. Ленина, 168"
+      },
+      {
+          "id": 61001,
+          "title": "Ростов1 | Лелюшенко, 4",
+          "city": "Ростов-на-Дону",
+          "city_en": "Rostov-on-Don",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Лелюшенко, 4"
+      },
+      {
+          "id": 61002,
+          "title": "Ростов2 | Омская, 2К \/ Михаила Нагибина, 32\/2",
+          "city": "Ростов-на-Дону",
+          "city_en": "Rostov-on-Don",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Омская, 2К"
+      },
+      {
+          "id": 61003,
+          "title": "Ростов3 | 14-я Линия, 84",
+          "city": "Ростов-на-Дону",
+          "city_en": "Rostov-on-Don",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. 14-я Линия, 84"
+      },
+      {
+          "id": 61008,
+          "title": "Ростов5 | Доватора, 267",
+          "city": "Ростов-на-Дону",
+          "city_en": "Rostov-on-Don",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Доватора, 267"
+      },
+      {
+          "id": 22010,
+          "title": "Рубцовск | Тракторная, 17",
+          "city": "Рубцовск",
+          "city_en": "Rubtsovsk",
+          "time_zone": "Asia\/Barnaul",
+          "address": "ул. Тракторная, 17"
+      },
+      {
+          "id": 92003,
+          "title": "Самара | Физкультурная, 141",
+          "city": "Самара",
+          "city_en": "Samara",
+          "time_zone": "Europe\/Samara",
+          "address": "ул. Физкультурная, 141"
+      },
+      {
+          "id": 23002,
+          "title": "Ставрополь | Доваторцев, 64",
+          "city": "Ставрополь",
+          "city_en": "Stavropol",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Доваторцев, 64"
+      },
+      {
+          "id": 62001,
+          "title": "Ставрополь | Западный обход, 68А",
+          "city": "Ставрополь",
+          "city_en": "Stavropol",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Западный обход, 68А"
+      },
+      {
+          "id": 94001,
+          "title": "Таганрог1 | Морозова, 20",
+          "city": "Таганрог",
+          "city_en": "Taganrog",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. Морозова, 20"
+      },
+      {
+          "id": 94002,
+          "title": "Таганрог2 | 2-я Советская, 74",
+          "city": "Таганрог",
+          "city_en": "Taganrog",
+          "time_zone": "Europe\/Moscow",
+          "address": "ул. 2-я Cоветская, 74"
+      },
+      {
+          "id": 95002,
+          "title": "Тольятти | Московский, 30",
+          "city": "Тольятти",
+          "city_en": "Talayti",
+          "time_zone": "Europe\/Samara",
+          "address": "пр. Московский, 30"
+      },
+      {
+          "id": 95001,
+          "title": "Тольятти | Южное шоссе, 4",
+          "city": "Тольятти",
+          "city_en": "Talayti",
+          "time_zone": "Europe\/Samara",
+          "address": "Южное шоссе, 4"
+      },
+      {
+          "id": 97002,
+          "title": "Уфа | Жукова, 30",
+          "city": "Уфа",
+          "city_en": "Ufa",
+          "time_zone": "Asia\/Yekaterinburg",
+          "address": "ул. Маршала Жукова, 30"
+      },
+      {
+          "id": 74001,
+          "title": "Челябинск1 | Блюхера, 126",
+          "city": "Челябинск",
+          "city_en": "Chelaybinsk",
+          "time_zone": "Asia\/Yekaterinburg",
+          "address": "ул. Блюхера, 126"
+      },
+      {
+          "id": 74002,
+          "title": "Челябинск2 | Братьев Кашириных, 75",
+          "city": "Челябинск",
+          "city_en": "Chelaybinsk",
+          "time_zone": "Asia\/Yekaterinburg",
+          "address": "ул. Братьев Кашириных, 75"
+      },
+      {
+          "id": 74003,
+          "title": "Челябинск3 | Черкасская, 23",
+          "city": "Челябинск",
+          "city_en": "Chelaybinsk",
+          "time_zone": "Asia\/Yekaterinburg",
+          "address": "ул. Черкасская, 23"
+      },
+      {
+          "id": 61007,
+          "title": "Шахты | Александровск-Грушевский, 13",
+          "city": "Шахты",
+          "city_en": "Shakhty",
+          "time_zone": "Europe\/Moscow",
+          "address": "Александровск-Грушевский пр., 13"
+      }
+  ]
+}

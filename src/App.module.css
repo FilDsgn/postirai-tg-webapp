@@ -1,0 +1,9 @@
+.page {
+  font-family: 'Circe', sans-serif;
+  color: #171717;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}

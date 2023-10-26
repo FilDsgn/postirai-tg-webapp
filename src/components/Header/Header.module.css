@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 400px;
+  width: 100%;
+  padding: 30px 15px;
+  box-sizing: border-box;
+}
+
+.backIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url(../../assets/images/back.svg);
+  background-color: #26A1DB;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 19px;
+  font-style: normal;
+  letter-spacing: 0;
+}
