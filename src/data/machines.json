@@ -18,7 +18,8 @@
               {
                   "amount": 149,
                   "currency": "RUB",
-                  "duration": 5
+                  "duration": 5,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               }
           ],
           "time_zone": "Europe\/Moscow"
@@ -39,7 +40,8 @@
               {
                   "amount": 149,
                   "currency": "RUB",
-                  "duration": 5
+                  "duration": 5,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               }
           ],
           "time_zone": "Europe\/Moscow"
@@ -54,13 +56,14 @@
           "number": 3,
           "status": {
               "id": 1,
-              "title": "Свободно"
+              "title": "Занято"
           },
           "prices": [
               {
                   "amount": 149,
                   "currency": "RUB",
-                  "duration": 5
+                  "duration": 5,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               }
           ],
           "time_zone": "Europe\/Moscow"
@@ -81,7 +84,8 @@
               {
                   "amount": 149,
                   "currency": "RUB",
-                  "duration": 5
+                  "duration": 5,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               }
           ],
           "time_zone": "Europe\/Moscow"
@@ -102,7 +106,8 @@
               {
                   "amount": 399,
                   "currency": "RUB",
-                  "duration": 5
+                  "duration": 5,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               }
           ],
           "time_zone": "Europe\/Moscow"
@@ -123,7 +128,8 @@
               {
                   "amount": 399,
                   "currency": "RUB",
-                  "duration": 5
+                  "duration": 5,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               }
           ],
           "time_zone": "Europe\/Moscow"
@@ -144,17 +150,20 @@
               {
                   "amount": 59,
                   "currency": "RUB",
-                  "duration": 10
+                  "duration": 10,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               },
               {
                   "amount": 118,
                   "currency": "RUB",
-                  "duration": 20
+                  "duration": 20,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               },
               {
                   "amount": 177,
                   "currency": "RUB",
-                  "duration": 30
+                  "duration": 30,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               }
           ],
           "time_zone": "Europe\/Moscow"
@@ -175,17 +184,20 @@
               {
                   "amount": 59,
                   "currency": "RUB",
-                  "duration": 10
+                  "duration": 10,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               },
               {
                   "amount": 118,
                   "currency": "RUB",
-                  "duration": 20
+                  "duration": 20,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               },
               {
                   "amount": 177,
                   "currency": "RUB",
-                  "duration": 30
+                  "duration": 30,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               }
           ],
           "time_zone": "Europe\/Moscow"
@@ -206,17 +218,20 @@
               {
                   "amount": 59,
                   "currency": "RUB",
-                  "duration": 10
+                  "duration": 10,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               },
               {
                   "amount": 118,
                   "currency": "RUB",
-                  "duration": 20
+                  "duration": 20,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               },
               {
                   "amount": 177,
                   "currency": "RUB",
-                  "duration": 30
+                  "duration": 30,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               }
           ],
           "time_zone": "Europe\/Moscow"
@@ -237,17 +252,20 @@
               {
                   "amount": 59,
                   "currency": "RUB",
-                  "duration": 10
+                  "duration": 10,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               },
               {
                   "amount": 118,
                   "currency": "RUB",
-                  "duration": 20
+                  "duration": 20,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               },
               {
                   "amount": 177,
                   "currency": "RUB",
-                  "duration": 30
+                  "duration": 30,
+                  "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
               }
           ],
           "time_zone": "Europe\/Moscow"

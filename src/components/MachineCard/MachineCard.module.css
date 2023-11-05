@@ -1,0 +1,81 @@
+.cardContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 14px 20px;
+  box-shadow: 0px 26px 40px 0px rgba(106, 118, 123, 0.12);
+  cursor: pointer;
+}
+
+.cardContainerBusy {
+  cursor: auto;
+}
+
+.image {
+  background-image: url(../../assets/images/machine-free.svg);
+  background-repeat: no-repeat;
+  width: 62px;
+  height: 62px;
+}
+
+.imageBusy {
+  background-image: url(../../assets/images/machine.svg);
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 150%; 
+  margin: 0;
+}
+
+.statusContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px
+}
+
+.statusText {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 130%;
+  margin: 0;
+}
+
+.statusIcon {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #26A1DB;
+}
+
+.statusIconRed {
+  background-color: #E8413F;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+.price {
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 150%;
+  margin: 0;
+}
+
+.weight {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+}

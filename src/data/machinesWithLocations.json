@@ -1,0 +1,298 @@
+{
+  "isOk": true,
+  "description": "success",
+  "data": [
+      {
+        "location": "Азов | Маяковского, 77",
+        "location_id": 124001,
+        "machines": [
+            {
+                "id": 169,
+                "type": {
+                    "id": 1,
+                    "title": "Стирка"
+                },
+                "size_value": 6,
+                "number": 1,
+                "status": {
+                    "id": 1,
+                    "title": "Свободно"
+                },
+                "prices": [
+                    {
+                        "amount": 149,
+                        "currency": "RUB",
+                        "duration": 5,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    }
+                ],
+                "time_zone": "Europe\/Moscow"
+            },
+            {
+                "id": 170,
+                "type": {
+                    "id": 1,
+                    "title": "Стирка"
+                },
+                "size_value": 6,
+                "number": 2,
+                "status": {
+                    "id": 1,
+                    "title": "Свободно"
+                },
+                "prices": [
+                    {
+                        "amount": 149,
+                        "currency": "RUB",
+                        "duration": 5,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    }
+                ],
+                "time_zone": "Europe\/Moscow"
+            },
+            {
+                "id": 171,
+                "type": {
+                    "id": 1,
+                    "title": "Стирка"
+                },
+                "size_value": 6,
+                "number": 3,
+                "status": {
+                    "id": 1,
+                    "title": "Свободно"
+                },
+                "prices": [
+                    {
+                        "amount": 149,
+                        "currency": "RUB",
+                        "duration": 5,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    }
+                ],
+                "time_zone": "Europe\/Moscow"
+            },
+            {
+                "id": 172,
+                "type": {
+                    "id": 1,
+                    "title": "Стирка"
+                },
+                "size_value": 6,
+                "number": 4,
+                "status": {
+                    "id": 1,
+                    "title": "Свободно"
+                },
+                "prices": [
+                    {
+                        "amount": 149,
+                        "currency": "RUB",
+                        "duration": 5,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    }
+                ],
+                "time_zone": "Europe\/Moscow"
+            },
+            {
+                "id": 173,
+                "type": {
+                    "id": 1,
+                    "title": "Стирка"
+                },
+                "size_value": 18,
+                "number": 5,
+                "status": {
+                    "id": 1,
+                    "title": "Свободно"
+                },
+                "prices": [
+                    {
+                        "amount": 399,
+                        "currency": "RUB",
+                        "duration": 5,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    }
+                ],
+                "time_zone": "Europe\/Moscow"
+            },
+            {
+                "id": 2396527,
+                "type": {
+                    "id": 1,
+                    "title": "Стирка"
+                },
+                "size_value": 18,
+                "number": 6,
+                "status": {
+                    "id": 1,
+                    "title": "Свободно"
+                },
+                "prices": [
+                    {
+                        "amount": 399,
+                        "currency": "RUB",
+                        "duration": 5,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    }
+                ],
+                "time_zone": "Europe\/Moscow"
+            },
+            {
+                "id": 176,
+                "type": {
+                    "id": 2,
+                    "title": "Сушка"
+                },
+                "size_value": 13,
+                "number": 11,
+                "status": {
+                    "id": 1,
+                    "title": "Свободно"
+                },
+                "prices": [
+                    {
+                        "amount": 59,
+                        "currency": "RUB",
+                        "duration": 10,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    },
+                    {
+                        "amount": 118,
+                        "currency": "RUB",
+                        "duration": 20,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    },
+                    {
+                        "amount": 177,
+                        "currency": "RUB",
+                        "duration": 30,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    }
+                ],
+                "time_zone": "Europe\/Moscow"
+            },
+            {
+                "id": 177,
+                "type": {
+                    "id": 2,
+                    "title": "Сушка"
+                },
+                "size_value": 13,
+                "number": 12,
+                "status": {
+                    "id": 1,
+                    "title": "Свободно"
+                },
+                "prices": [
+                    {
+                        "amount": 59,
+                        "currency": "RUB",
+                        "duration": 10,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    },
+                    {
+                        "amount": 118,
+                        "currency": "RUB",
+                        "duration": 20,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    },
+                    {
+                        "amount": 177,
+                        "currency": "RUB",
+                        "duration": 30,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    }
+                ],
+                "time_zone": "Europe\/Moscow"
+            },
+            {
+                "id": 86777,
+                "type": {
+                    "id": 2,
+                    "title": "Сушка"
+                },
+                "size_value": 13,
+                "number": 13,
+                "status": {
+                    "id": 1,
+                    "title": "Свободно"
+                },
+                "prices": [
+                    {
+                        "amount": 59,
+                        "currency": "RUB",
+                        "duration": 10,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    },
+                    {
+                        "amount": 118,
+                        "currency": "RUB",
+                        "duration": 20,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    },
+                    {
+                        "amount": 177,
+                        "currency": "RUB",
+                        "duration": 30,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    }
+                ],
+                "time_zone": "Europe\/Moscow"
+            },
+            {
+                "id": 86778,
+                "type": {
+                    "id": 2,
+                    "title": "Сушка"
+                },
+                "size_value": 13,
+                "number": 14,
+                "status": {
+                    "id": 1,
+                    "title": "Свободно"
+                },
+                "prices": [
+                    {
+                        "amount": 59,
+                        "currency": "RUB",
+                        "duration": 10,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    },
+                    {
+                        "amount": 118,
+                        "currency": "RUB",
+                        "duration": 20,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    },
+                    {
+                        "amount": 177,
+                        "currency": "RUB",
+                        "duration": 30,
+                        "url": "http://reports.develope/payment/order/018b70af-9daa-7c10-8f8b-72a704824d76?_hash=5%2FWoQbITaAaXW1qs%2Be47JbT0TlFgbc53o6wNy1kmGmw%3D&stamp=1699006882&type=1"
+
+                    }
+                ],
+                "time_zone": "Europe\/Moscow"
+            }
+        ]
+      }
+  ]
+}

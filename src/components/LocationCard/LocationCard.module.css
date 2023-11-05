@@ -1,0 +1,51 @@
+.locationCard {
+  border-radius: 15px;
+  background: #FFF;
+  box-shadow: 0px 26px 40px 0px rgba(106, 118, 123, 0.12);
+  padding: 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.locationCardContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.locationCardTitle {
+  font-size: 17px;
+  line-height: 150%;
+  font-weight: 800;
+  margin: 0;
+}
+
+.locationMachinesContainer {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.locationCardText {
+  font-size: 12px;
+  line-height: 130%;
+  font-weight: 400;
+  margin: 0;
+}
+
+.locationCardCount {
+  font-size: 13px;
+  line-height: 150%;
+  font-weight: 800;
+  margin: 0;
+}
+
+.locationCardArrow {
+  background-image: url(../../assets/images/arrow-location.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20px;
+  width: 30px;
+  margin-left: auto;
+}

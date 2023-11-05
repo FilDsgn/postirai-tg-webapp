@@ -1,0 +1,18 @@
+.content {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.locationCards {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.message {
+  color: #E8413F;
+  text-align: center;
+  margin-top: 30px;
+}
