@@ -1,38 +1,7 @@
 import { useCurrentOrderContext } from "../../contexts/CurrentOrderContext";
 import style from "./ChoseTimePopup.module.css";
 
-interface IType {
-  id: number;
-  title: string;
-}
-
-interface IStatus {
-  id: number;
-  title: string;
-}
-
-interface IPrice {
-  amount: number;
-  currency: string;
-  duration: number;
-  url: string;
-}
-
-interface IMachine {
-  id: number;
-  type: IType;
-  size_value: number;
-  number: number;
-  status: IStatus;
-  prices: IPrice[];
-  time_zone: string;
-}
-
-interface IChoseTimePopup {
-  isOpen: boolean;
-  closeChoseTimePopup: () => void;
-  machine: IMachine;
-}
+import { IChoseTimePopup } from "./ChoseTimePopup.types";
 
 const ChoseTimePopup = ({
   isOpen,
@@ -45,11 +14,9 @@ const ChoseTimePopup = ({
   return (
     <div
       className={`${style.popup} ${isOpen && style.visible}`}
-      onClick={() => {
-        closeChoseTimePopup();
-      }}
+      onClick={closeChoseTimePopup}
     >
-      <div className={style.container}>
+      <div className={`${style.container} ${isOpen && style.containerActive}`}>
         <ul className={style.itemsList}>
           {machine.prices.map((i) => {
             return (

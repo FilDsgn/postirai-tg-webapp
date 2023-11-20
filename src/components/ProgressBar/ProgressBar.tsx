@@ -1,9 +1,5 @@
-import { useState } from "react";
 import style from "./ProgressBar.module.css";
-
-interface IProgressBar {
-  step: string;
-}
+import { IProgressBar } from "./ProgressBar.types";
 
 const ProgressBar = ({ step }: IProgressBar) => {
   return (

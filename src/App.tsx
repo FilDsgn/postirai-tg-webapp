@@ -1,19 +1,15 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./App.module.css";
 import Header from "./components/Header/Header";
 import LocationsList from "./components/LocationsList/LocationsList";
 import MachinesList from "./components/MachinesList/MachinesList";
 
-import machines from "./data/machines.json";
-import locations from "./data/locations.json";
 import { CurrentOrderContextProvider } from "./contexts/CurrentOrderContext";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
 import Payment from "./components/Payment/Payment";
+import { useTelegram } from "./hooks/useTelegram";
 
 function App() {
-  const machinesData = machines.data;
-  const locationsData = locations.data;
-
   const [location, setLocation] = useState("");
   const [locationId, setLocationId] = useState(0);
   const [machine, setMachine] = useState("");
@@ -34,8 +30,14 @@ function App() {
     duration,
     price,
     paymentUrl,
-    // owner
   };
+
+  const { tg } = useTelegram();
+
+  useEffect(() => {
+    tg.ready();
+    tg.expand();
+  }, []);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -77,7 +79,7 @@ function App() {
     }
   };
 
-  console.log(order);
+  // console.log(order);
 
   return (
     <div className={styles.page}>
@@ -100,8 +102,8 @@ function App() {
             className={styles.backIcon}
           ></div>
         )}
-        {step === "locations" && <LocationsList data={locationsData} />}
-        {step === "machines" && <MachinesList data={machinesData} />}
+        {step === "locations" && <LocationsList />}
+        {step === "machines" && <MachinesList />}
         {step === "payment" && <Payment />}
       </CurrentOrderContextProvider>
     </div>

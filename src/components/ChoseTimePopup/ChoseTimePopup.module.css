@@ -22,6 +22,12 @@
   border-radius: 10px 10px 0 0;
   padding: 0;
   box-sizing: border-box;
+  bottom: -100%;
+  transition: bottom .3s;
+}
+
+.containerActive {
+  bottom: 0;
 }
 
 .itemsList {

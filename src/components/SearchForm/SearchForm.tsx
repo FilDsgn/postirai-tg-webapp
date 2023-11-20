@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import style from "./SearchForm.module.css";
-
-interface ISearchForm {
-  onSearch: (value: string) => void;
-}
+import { ISearchForm } from "./SearchForm.types";
 
 const SearchForm = ({ onSearch }: ISearchForm) => {
   const [input, setInput] = useState("");

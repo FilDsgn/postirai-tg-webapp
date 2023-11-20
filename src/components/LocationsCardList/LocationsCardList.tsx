@@ -1,19 +1,6 @@
 import LocationCard from "../LocationCard/LocationCard";
 import style from "./LocationsCardList.module.css";
-
-interface ILocationData {
-  id: number;
-  title: string;
-  city: string;
-  city_en: string;
-  time_zone: string;
-  address: string;
-}
-
-interface ILocationsCardList {
-  city: string;
-  data: ILocationData[];
-}
+import { ILocationData, ILocationsCardList } from "./LocationsCardList.types";
 
 const LocationsCardList = ({ city, data }: ILocationsCardList) => {
   const filteredData = data.filter((i: ILocationData) => i.city === city);

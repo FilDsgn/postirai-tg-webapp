@@ -1,8 +1,5 @@
 import style from "./Header.module.css";
-
-interface IHeader {
-  title: string;
-}
+import { IHeader } from "./Header.types";
 
 const Header = ({ title }: IHeader) => {
   return (

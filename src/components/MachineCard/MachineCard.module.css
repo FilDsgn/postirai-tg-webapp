@@ -9,6 +9,11 @@
   cursor: pointer;
 }
 
+.cardContainer:active {
+  background-color: #26A1DB;
+  color: #FFF;
+}
+
 .cardContainerBusy {
   cursor: auto;
 }

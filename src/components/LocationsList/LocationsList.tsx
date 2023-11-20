@@ -1,32 +1,56 @@
-import { uniq } from "lodash";
-import { useState } from "react";
+import { replace, uniq } from "lodash";
+import { useEffect, useState } from "react";
+
+import * as laundryApi from "../../utils/laundryApi";
+import Loader from "../Loader/Loader";
 
 import LocationsCardList from "../LocationsCardList/LocationsCardList";
 import SearchForm from "../SearchForm/SearchForm";
 import style from "./LocationsList.module.css";
+import { ILocationsData } from "./LocationsList.types";
 
-interface ILocationsData {
-  id: number;
-  title: string;
-  city: string;
-  city_en: string;
-  time_zone: string;
-  address: string;
-}
+const LocationsList = () => {
+  const [laundriesData, setLaundriesData] = useState([]);
+  const [locationsList, setLocationsList] = useState(laundriesData);
 
-interface ILocationsList {
-  data: ILocationsData[];
-}
+  const [isLoading, setIsLoading] = useState(false);
 
-const LocationsList = ({ data = [] }: ILocationsList) => {
-  const [locationsList, setLocationsList] = useState(data);
+  useEffect(() => {
+    setIsLoading(true);
+    laundryApi
+      .getLaundries()
+      .then((laundries) => {
+        setLaundriesData(laundries.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
+  }, []);
 
+  useEffect(() => {
+    setLocationsList(laundriesData);
+  }, [laundriesData]);
+
+  // Пофиксить поиск
   const handleSearchLocations = (searchText: string) => {
-    const results = data.filter((i) => {
+    const regex = new RegExp(searchText.replace(/[ -.,]/g, ""), "gi");
+    const results = laundriesData.filter((i: ILocationsData) => {
       return (
-        i.address.toLowerCase().includes(searchText) ||
-        i.city_en.toLowerCase().includes(searchText) ||
-        i.city.toLowerCase().includes(searchText)
+        // i.address.toLowerCase().includes(searchText) ||
+        // i.city_en.toLowerCase().includes(searchText) ||
+        // i.city.toLowerCase().includes(searchText) ||
+        // (i.city.toLowerCase() + " " + i.address.toLowerCase()).includes(
+        //   searchText.toLowerCase()
+        // )
+
+        (i.city + " " + i.address)
+          .toLowerCase()
+          .toString()
+          .replace(/[ -.,]/g, "")
+          .match(regex)
       );
     });
 
@@ -45,7 +69,8 @@ const LocationsList = ({ data = [] }: ILocationsList) => {
           );
         })}
       </ul>
-      {cities.length === 0 && (
+      {isLoading && <Loader />}
+      {cities.length === 0 && !isLoading && (
         <span className={style.message}>Ничего не найдено</span>
       )}
     </main>

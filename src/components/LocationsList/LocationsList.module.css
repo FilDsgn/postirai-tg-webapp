@@ -1,6 +1,8 @@
 .content {
   max-width: 400px;
   width: 100%;
+  /* height: 100vh; */
+  flex-grow: 3;
   display: flex;
   flex-direction: column;
 }

@@ -10,13 +10,14 @@
 }
 
 .backIcon {
-  width: 40px;
-  height: 40px;
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
   background-image: url(./assets/images/back.svg);
   background-color: #26A1DB;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 30px 30px;
   cursor: pointer;
   position: fixed;
   left: 15px;
