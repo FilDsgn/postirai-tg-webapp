@@ -1,10 +1,10 @@
 import style from "./Header.module.css";
+import { IHeader } from "./Header.types";
 
-const Header = () => {
+const Header = ({ title }: IHeader) => {
   return (
     <header className={style.header}>
-      <div className={style.backIcon}></div>
-      <h2 className={style.title}>ВЫБЕРИ ПРАЧЕЧНУЮ</h2>
+      <h2 className={style.title}>{title}</h2>
     </header>
   );
 };

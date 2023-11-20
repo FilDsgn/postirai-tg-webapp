@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# POSTIRAI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Веб и телеграм-приложение для сети прачечных.
 
 ## Available Scripts
 
